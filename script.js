@@ -5,7 +5,7 @@
 
   // Jika parameter 'kepada' ada, tambahkan ke URL
   if (recipientName) {
-    const newUrl = `https://puade.github.io/7hari-sarco-duengo/?kepada=${recipientName}`;
+    const newUrl = `https://puade.github.io/40hari-sarco-duengo/?kepada=${recipientName}`;
     // Update og:url dengan URL yang baru
     document.querySelector('meta[property="og:url"]').setAttribute("content", newUrl);
 
@@ -15,7 +15,7 @@
   
     // Countdown function
     function countdown() {
-      const countDate = new Date("October 09, 2025 18:00:00").getTime();
+      const countDate = new Date("November 11, 2025 09:00:00").getTime();
       const now = new Date().getTime();
       const gap = countDate - now;
   
